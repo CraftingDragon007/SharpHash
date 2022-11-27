@@ -27,6 +27,7 @@
 using System;
 using System.Globalization;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace SharpHash.Utils
 {
@@ -298,13 +299,12 @@ namespace SharpHash.Utils
 
             if (size == 2)
             {
-                return hex.Replace(delimeter.ToString(), "", true, CultureInfo.CurrentCulture);
+                return Regex.Replace(hex, delimeter.ToString(), "", RegexOptions.IgnoreCase);
             } // end if
 
             if (a_group) return hex;
 
-            return hex.Replace(delimeter.ToString(), "", 
-                true, CultureInfo.CurrentCulture);
+            return Regex.Replace(hex, delimeter.ToString(), "", RegexOptions.IgnoreCase);
         } // end function ConvertBytesToHexString
 
         public static byte[] ConvertHexStringToBytes(string a_in, char delimeter = '-')
