@@ -9,12 +9,12 @@
     <Authors>Ron4fun, Xor-el, IzarchTech</Authors>
     <Company>XorelConcepts</Company>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <Description>SharpHash is a C# hashing library which provides an easy to use interface for computing hashes and checksums of data. It also supports state based (incremental) hashing.</Description>
+    <Description>SharpHash is a C# hashing library which provides an easy to use interface for computing hashes and checksums of data. It also supports state based (incremental) hashing. This is a upgraded fork (net7.0), that has netstandard 2.0 as TargetFramework for better compatibility</Description>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
-    <PackageProjectUrl>https://github.com/ron4fun/SharpHash</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/ron4fun/SharpHash.git</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/CraftingDragon007/SharpHash</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/CraftingDragon007/SharpHash.git</RepositoryUrl>
     <Copyright>2020</Copyright>
-    <PackageId>SharpHash</PackageId>
+    <PackageId>CraftingDragon007.SharpHash</PackageId>
     <PackageTags>Hash;Hashing;Crypto;Cryptography;Checksum;HMAC;KDF;PBKDF;</PackageTags>
     <RepositoryType>git</RepositoryType>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
